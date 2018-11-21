@@ -1,0 +1,41 @@
+<resources>
+    <!--<string name="app_name">悉尔人脸自证闸机包</string>-->
+    <string name="app_name">人脸闸机</string>
+    <string name="loading_configs">正在加载配置文件信息，请稍候</string>
+    <string name="load_default_configs">配置文件未找到，自动加载默认配置</string>
+    <string name="load_configs_failed">配置文件格式错误，请确认</string>
+    <string name="compare_result">比对结果</string>
+    <string name="text_name">姓名：</string>
+    <string name="text_sex">性别：</string>
+    <string name="text_nation">民族：</string>
+    <string name="text_born">出生：</string>
+    <string name="text_address">住址：</string>
+    <string name="text_device_id">设备ID：%s</string>
+    <string name="open_camera_failed">打开摄像头失败</string>
+    <string name="open_camera_error">打开摄像头异常</string>
+    <string name="dialog_message">当前网络不可用，点击设置进入网络配置界面</string>
+    <string name="ok">设置</string>
+    <string name="cancel">暂不设置</string>
+    <string name="success">欢迎您</string>
+    <string name="text_invalid">身份证过期</string>
+    <string name="text_verifying">人证比对中...</string>
+    <string name="text_verify_success">比对成功</string>
+    <string name="text_verify_failed">比对失败</string>
+    <string name="text_verify_error">比对异常</string>
+    <string name="text_server_error">服务器异常</string>
+    <string name="text_finding_face">抓取人脸中...</string>
+    <string name="text_all_life">长期</string>
+    <string name="text_prompt">请刷身份证或IC卡</string>
+    <string name="text_wrong_idcard">请使用本人身份证进行对比</string>
+    <string name="text_wrong_idcard_tips">如有疑问请联系工作人员</string>
+    <string name="text_visitor">请联系工作人员录入照片</string>
+    <string name="text_recognizing">人脸识别中...</string>
+    <string name="text_welcome">欢迎您</string>
+    <string name="text_pass">通过!</string>
+    <string name="text_pass_en">PASS</string>
+    <string name="text_failed">不通过!</string>
+    <string name="text_failed_en">FAIL</string>
+    <string name="initialing">正在初始化设备，请稍候...</string>
+    <string name="network_unavailable">请检查网络是否正常连接</string>
+
+</resources>

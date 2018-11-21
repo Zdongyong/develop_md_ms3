@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <!-- CameraView -->
+    <declare-styleable name="CameraView">
+        <attr name="previewwidth" format="integer"/>
+        <attr name="previewheight" format="integer"/>
+        <attr name="displaywidth" format="integer"/>
+        <attr name="displayheight" format="integer"/>
+    </declare-styleable>
+
+</resources>

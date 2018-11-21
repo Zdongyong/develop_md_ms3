@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/lin_info"
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/create_img"
+            android:layout_width="440dp"
+            android:layout_height="440dp"
+            android:visibility="gone"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:id="@+id/rel_wave_info"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+            <com.moredian.securitygate.view.RippleLayout
+                android:id="@+id/ripple_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/img_bg"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/icon_bg" />
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/icon_activation"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_info"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_01"
+        android:gravity="center"
+        android:textSize="44sp"/>
+
+    <TextView
+        android:id="@+id/macText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:text="管理员入口" />
+
+</RelativeLayout>
